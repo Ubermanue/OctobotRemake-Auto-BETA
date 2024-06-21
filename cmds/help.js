@@ -15,7 +15,7 @@ module.exports = {
             helpMessage += `Cooldown: ${command.cooldown !== undefined ? command.cooldown : 'No cooldown'}\n`;
             helpMessage += '💮═══════════════💮\n';
         });
-        helpMessage += '💬https://facebook.com/OctobotRemake.Owner';
+        helpMessage += '💬https://www.facebook.com/vixvus';
         api.sendMessage(helpMessage, event.threadID);
     }
 };
